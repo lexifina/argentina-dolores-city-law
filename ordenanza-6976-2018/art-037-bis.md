@@ -1,0 +1,1 @@
+ARTICULO 37 BIS: Exímase del pago de los Derechos de Construcción previstos en ================ el Título Noveno, art.14º, inc. B 2.0 de la presente a las construcciones nuevas que no superen los 50 m2 de superficie.
