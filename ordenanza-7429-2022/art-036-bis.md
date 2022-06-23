@@ -1,0 +1,1 @@
+ARTICULO 36º BIS: Exímase del pago de la tasa establecida en el Título Octavo, Art. 13º, Inciso 25, a las entidades bancarias cuando el código de descuento se origine por el otorgamiento de préstamos a los empleados municipales.-

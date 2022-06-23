@@ -1,0 +1,2 @@
+ARTICULO 34ºBIS: Están exentos de los derechos contemplados en el Título I Art. 2º los inmuebles destinados a vivienda única pertenecientes a los ex combatientes y/ó cónyuges supérstite y/ó hijos menores de los ciudadanos ex combatientes de Malvinas declarados “Hijos Dilectos de Dolores”.-
+No se encuentra comprendida en el presente beneficio la Tasa determinada en el inc.a) del título I de la Ordenanza Impositiva vigente.

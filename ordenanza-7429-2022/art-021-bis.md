@@ -1,0 +1,1 @@
+ARTICULO 21º Bis: Los valores de los incisos, a), b), C), del art. 21º, se actualizaran de forma cuatrimestral según la variación del índice del novillo de del Mercado de Liniers (INML) sugerido para arrendamientos rurales, cuando el aumento porcentual del mencionado índice registre una variación mayor al 5% en el acumulado del año.-

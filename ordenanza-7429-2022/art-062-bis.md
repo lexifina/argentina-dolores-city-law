@@ -1,0 +1,1 @@
+ARTICULO 62º BIS: Aquellos contribuyentes del impuesto a los automotores determinado por ley 13.010 que no registren deudas al vencimiento de la 4º cuota /2.022, obtendrán automáticamente la bonificación del 100% de dicha cuota.-

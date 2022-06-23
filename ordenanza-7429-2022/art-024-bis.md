@@ -1,0 +1,1 @@
+ARTICULO 24º Bis: Los valores expresados en los Art. 23 y 24 del presente titulo se actualizaran a partir del 01/07/2022 de acuerdo a la variación del índice del novillo del Mercado de Liniers (INML) sugerido para arrendamientos rurales, cuando el aumento porcentual del mencionado índice registre una variación mayor al 5% en el acumulado del año.-
