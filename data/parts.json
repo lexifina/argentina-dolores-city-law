@@ -193,6 +193,12 @@
     "ordenanza-7723-2025"
    ],
    "sha256": "2a2f0c988e96be2b48cfe5ac9c3137d71cbf9ef3a2a3873243ea7c4a8c224a6a"
+  },
+  "40-q261-pdf-annexes.json": {
+   "acts": [
+    "ordenanza-7676-2024"
+   ],
+   "sha256": "cab32c89f496746c92ee89c7f83c84cff522458161f889db9c93c69003301224"
   }
  },
  "schema": 1

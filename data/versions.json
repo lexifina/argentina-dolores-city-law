@@ -2436,6 +2436,20 @@
      "sha256": "76c170723b55d0bbc9a603ac9fa5080befbfe5595ee3345ca44264ec38e77bfc"
     }
    ]
+  },
+  {
+   "slug": "ordenanza-7676-2024",
+   "short": "Ordenanza 7676/2024",
+   "title": "Ordenanza 7676/2024",
+   "url": "https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184882",
+   "versions": [
+    {
+     "from": "2025-03-20",
+     "units": 1,
+     "source_url": "https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184882/download_annex?annex_id=48459",
+     "sha256": "af8d7ca7811605d581855b6e2d5952bff4a3420373067cd92dd8f1502175e9eb"
+    }
+   ]
   }
  ]
 }

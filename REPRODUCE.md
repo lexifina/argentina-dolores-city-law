@@ -7,6 +7,7 @@ This file is written by the build on 2026-11-05, the day the source data was ret
 | Source | Address | Retrieved | Licence |
 | --- | --- | --- | --- |
 | Sistema de Boletines Oficiales Municipales (SIBOM), Subsecretaría Legal y Técnica, Secretaría General, Provincia de Buenos Aires: Boletín Oficial Municipal de Dolores | <https://sibom.slyt.gba.gob.ar/cities/36> | 2026-11-01 | Official municipal ordinances, published in the Boletín Oficial Municipal. Argentina's copyright law (Ley 11.723) has no express exclusion for them; ordinances are public acts of government, binding on everyone once officially published. The source states no restriction on reuse. Reproduced with attribution, following the official text. |
+| Boletín Oficial Municipal de Dolores (SIBOM), ordinance 7676 official PDF annex | <https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184882/download_annex?annex_id=48459> | 2026-11-05 | Official municipal ordinance; source states no restriction on reuse. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -188,12 +189,13 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `ordenanza-7630-2023` | Ordenanza 7630/2023: Desígnese con el nombre de “Zulema Elída Catino de Franco” a la calle ubicada de Oeste a Este entre las calles Márquez y Ramón Melgar, en una longitud de 700 mts.- | 1 | 2023-11-03 to 2023-11-03 |
 | `ordenanza-7682-2024` | Ordenanza 7682/2024: Suprimir el Juzgado de Faltas Municipales N° 2 cuyos trámites pendientes se delegarán para su continuidad al actual Juzgado de Faltas N° 1 por donde serán gestionados hasta su terminación. | 1 | 2024-02-14 to 2024-02-14 |
 | `ordenanza-7723-2025` | Ordenanza 7723/2025: Convalidar el CONVENIO DE COLABORACION INTERINSTITUCIONAL –MUNICIPIO DONANTE- suscripto entre la Municipalidad de Dolores y el Centro Único Coordinador de Ablación e Implante (CUCAIBA), dependiente del Ministerio de Salu | 1 | 2025-03-20 to 2025-03-20 |
+| `ordenanza-7676-2024` | Ordenanza 7676/2024 | 1 | 2025-03-20 to 2025-03-20 |
 
-The build made 174 commits:
+The build made 175 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 174 | first version of an act |
+| 175 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
@@ -201,7 +203,7 @@ Other counts:
 - 0 commits on the branch `futuro`: laws not yet in force on 2026-11-05.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 174 laws in the record.
-- 348 tags.
+- 349 tags.
 
 ## Dates
 
@@ -213,13 +215,13 @@ When a law gives no date of its own, the default rule applies: An ordinance take
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `09e75903f64a8f23890e2dd347913338b172f970044d59da76fe4cbc237c77d7` (885077 bytes).
+- Corpus: sha256 `f8dec5ddeb5343c5ff63dc9149a5403a8441996e50ea1c49f1584ef993df74b7` (890001 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-174 versions of 174 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
 No second build of this corpus has been compared yet.
 
@@ -230,6 +232,10 @@ No second build of this corpus has been compared yet.
 - The Province of Buenos Aires gives its municipalities no carta orgánica: their organic law is the provincial Ley Orgánica de las Municipalidades (Decreto-Ley 6769/58), which is provincial law and not included here. So this repository starts with ordinances.
 - Ordinances are taken from SIBOM's ordinance search for the partido, read from its last result page back (the search lists them only roughly in date order) until about 200 are found, the newest it holds. They are sorted by the day they took effect and added oldest first in parts of about 50, so each part extends the history forward. An ordinance whose page carries only an extract, no article, or its text only as a PDF annex is left out; the README lists every ordinance left out and why. An ordinance published twice is taken from its first publication.
 - Units: the heading (encabezado: number, place and date, the expediente line and anything before Artículo 1) and one file per article, holding the article and everything printed after it up to the next article (signatures, annexes). Nothing is dropped. One paragraph per line, spacing normalised.
+- Ordinance 7676 is recorded as one complete-text unit, including recitals, all three articles, the approval line and signatures. Decorative letterhead and contact footer are excluded.
+- The ordinance was approved on 2024-01-22 and published in bulletin 90 on 2025-03-11; its in-force date is 2025-03-20 under the recorded ninth-day rule. The text gives no separate commencement clause.
+- The official PDF is text-based; no OCR is used. Identical glyphs at identical coordinates are retained once, without rewriting words.
+- The source page contains no amendment version history; the record represents the ordinance as published.
 
 ## What AI did and did not do
 
@@ -241,3 +247,4 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - A model (Claude) wrote the fetch and parse code and chose which norms to include; it wrote no law text. Every word of law comes from the provincial source's own texts.
+- A model inspected the complete official PDF page against the deterministic extraction and described metadata. No model-generated or model-corrected legal wording is used.
