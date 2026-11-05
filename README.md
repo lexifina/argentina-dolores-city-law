@@ -8,7 +8,7 @@ The text is in Spanish, exactly as the source prints it.
 
 ## What this repository holds
 
-174 ordinances so far, in force from 8 October 2017 to 20 March 2025, each as published in the Boletín Oficial Municipal de Dolores, added in parts.
+175 ordinances so far, in force from 8 October 2017 to 20 March 2025, each as published in the Boletín Oficial Municipal de Dolores, added in parts.
 
 | Folder | Ordinance | History |
 | --- | --- | --- |
@@ -185,7 +185,10 @@ The text is in Spanish, exactly as the source prints it.
 | `ordenanza-7625-2023/` | Ordenanza 7625/2023: Designar Dr. ADRIAN RUBÉN LAMACCHIA a la calle rural ubicada en la Circ. X, que surge de planos 29-89-1948 y 29-36-2022, que divide las par… | in force 3 November 2023 |
 | `ordenanza-7630-2023/` | Ordenanza 7630/2023: Desígnese con el nombre de “Zulema Elída Catino de Franco” a la calle ubicada de Oeste a Este entre las calles Márquez y Ramón Melgar, en u… | in force 3 November 2023 |
 | `ordenanza-7682-2024/` | Ordenanza 7682/2024: Suprimir el Juzgado de Faltas Municipales N° 2 cuyos trámites pendientes se delegarán para su continuidad al actual Juzgado de Faltas N° 1 … | in force 14 February 2024 |
+| `ordenanza-7676-2024/` | Ordenanza 7676/2024 | Text as published; approved 22 January 2024, in force 20 March 2025 |
 | `ordenanza-7723-2025/` | Ordenanza 7723/2025: Convalidar el CONVENIO DE COLABORACION INTERINSTITUCIONAL –MUNICIPIO DONANTE- suscripto entre la Municipalidad de Dolores y el Centro Único… | in force 20 March 2025 |
+
+The official PDF annex for ordinance 7676 is recorded as one complete-text file (`texto.md`).
 
 ## Source
 
@@ -213,12 +216,11 @@ This is not an official publication. The binding text is the one published in th
 
 ## Left out
 
-28 ordinances that SIBOM lists in the period covered are not included, because the Boletín Oficial Municipal de Dolores page gives no article text to read:
+27 ordinances that SIBOM lists in the period covered are not included, because the Boletín Oficial Municipal de Dolores page gives no article text to read:
 
 | Ordinance | Published | Why | Page |
 | --- | --- | --- | --- |
 | Ordenanza 7675 | 11 March 2025 | text only as a PDF annex | <https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184879> |
-| Ordenanza 7676 | 11 March 2025 | text only as a PDF annex | <https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184882> |
 | Ordenanza 7677 | 11 March 2025 | text only as a PDF annex | <https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184883> |
 | Ordenanza 7682 | 11 March 2025 | text only as a PDF annex | <https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2184935> |
 | Ordenanza 7690 | 11 March 2025 | text only as a PDF annex | <https://sibom.slyt.gba.gob.ar/bulletins/12346/contents/2185692> |
